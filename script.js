@@ -97,5 +97,5 @@ function resetGame() {
 
 // Home butonuna tıklandığında sayfayı yönlendirme
 document.getElementById('homeButton').addEventListener('click', function() {
-    window.location.href = 'https://github.com/ufak1/home'; // Burada 'index.html' yerine yönlendirmek istediğiniz sayfanın URL'sini yazabilirsiniz
+    window.location.href = 'https://ufak1.github.io/home/'; // Burada 'index.html' yerine yönlendirmek istediğiniz sayfanın URL'sini yazabilirsiniz
 });
