@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ufak - Tic Tac Toe</title>
+    <link rel="icon" href="görsel/donut.png" type="image/png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sol üst köşede home butonu, görsel ikon ekledik -->
+    <button class="home-button" id="homeButton">
+        <img src="görsel/home.png" alt="Home" class="home-icon">
+    </button>
+
+    <div class="container">
+        <h1>Tic Tac Toe Yapay Zekaya Karşı</h1>
+        <div class="board" id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div class="status" id="status"></div>
+        <button class="reset" id="resetButton">Tekrar Başlat</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
